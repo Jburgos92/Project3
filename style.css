@@ -1,9 +1,39 @@
-* 
-
+*
+.search{
+    border: 2px double black;
+    outline-style: double;
+    width: 30%;
+    margin: auto;
+    text-align: right;
+    padding: 10px;
+    
+}
 
 .photo {
     display: block;
     margin: auto;
     width: 40%;
+
+    
 }
+
+.navi{
+    background: black;
+    font-size: 30px;
+    text-align: right;
+
+}
+
+li{
+    display: inline;
+
+}
+
+
+
+li a {
+    color: grey;
+    text-decoration: none;
+}
+
 

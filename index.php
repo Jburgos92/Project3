@@ -3,7 +3,7 @@
 
 <head>
     <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
 
@@ -20,7 +20,7 @@
             <li><a href="about.php">About</a></li>
             <li><a href="register.php">Register</a></li>
             <li><a href="Login.php">Login</a></li>
-            <li><a href="mystays.php">My Stays</a></li>
+
 
 
 
@@ -41,14 +41,12 @@
 
 
 
-
-
-
-    <p><span class="error">* required field.</span></p>
-
     <div class="search">
+        
+        <p><span class="error">* required field.</span></p>
 
         <form method="post" action="postprocess.php" enctype='multipart/form-data'>
+            
             <label>Check In
 	<input type="text" name="checkin" required><span class="error">*</span><br>
 </label>
@@ -62,15 +60,18 @@
 </label>
             <br>
             <label>Child Per Room
-                <input type="password" name="child" required><span class="error">*</span><br></label>
+                <input type="text" name="child" required><span class="error">*</span><br></label><br>
 
-            <label><input type="password" name="child" required><span class="error">*</span><br>
-</label>
-            <br>
+            <label>Room
+                <input type="text" name="room" required><span class="error">*</span><br></label>
 
             <br>
-            <input type="submit" name="submit" value="Submit">
+            <br>
+            
+            <input type="submit" name="submit" value="Search">
         </form>
+        
+        
 
 
 
