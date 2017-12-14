@@ -16,9 +16,9 @@
     <nav class="navi">
         <div class="photo"><img src="img/logo.png"></div>
         <ul>
-            <li><a href="book.php">Book</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="register.php">Register</a></li>
+            <li><a href="book.php">Book |</a></li>
+            <li><a href="about.php">About |</a></li>
+            <li><a href="register.php">Register |</a></li>
             <li><a href="Login.php">Login</a></li>
 
 
@@ -70,8 +70,9 @@
             
             <input type="submit" name="submit" value="Search">
         </form>
+        <br>
         
-        
+
 
 
 
