@@ -1,8 +1,9 @@
+<?php session_start();// Starting Session ?>
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Sheraton</title>
+    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
@@ -38,15 +39,44 @@
 
 
 
-
-
-
-    <div class="search">
-        <form>
+    <form>
+        <div class="sign">
+                    <p><span class="error">* required field.</span></p>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputname4">Full Name:</label>
+                    <input type="name" class="form-control" id="inputname4" placeholder="Full Name">
+                    <span class="error">*</span><br>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email:</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    <span class="error">*</span><br>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password:</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                    <span class="error">*</span><br>
+                </div>
+            </div>
             <div class="form-group">
-                <label>Location:</label>
-
-                <select id="inputState" class="form-control">
+                <label for="inputAddress">Address:</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                <span class="error">*</span><br>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Address 2:</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City:</label>
+                    <input type="text" class="form-control" id="inputCity">
+                    <span class="error">*</span><br>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">State:</label>
+                    <select id="inputState" class="form-control">
 <option selected>Choose...</option>
         <option>Alabama</option>
         <option>Alaska</option>
@@ -101,65 +131,29 @@
 
 
       </select>
+                    <span class="error">*</span><br>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip:</label>
+                    <input type="text" class="form-control" id="inputZip">
+                    <span class="error">*</span><br>
+                </div>
+                <br>
             </div>
-                
-                
-                <br>
-
-                <label>Check In:</label>
-                <input id="date" type="date">
-
-                <br>
-                <br>
-
-                <label>Check Out:
-               <input id="date" type="date">
-
-</label>
-                <br>
-                <br>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Adult</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-                </div>
-                <br>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Room</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-                </div>
-
-
-
-
-                <br>
-                <br>
-
-
-            <input type="submit" name="submit" value="Search">
-        </form>
-        <br>
-
-
-
-
+            <button type="submit" class="btn btn-primary">Submit</button>
 
         </div>
-    
+    </form>
+
+
+<br>
     <br>
-    <br>
-    <footer>© 2017 Sheraton, Inc., All rights reserved.</footer>
+
+
+
+<footer>© 2017 Sheraton, Inc., All rights reserved.</footer>
+
+
 
 </body>
 

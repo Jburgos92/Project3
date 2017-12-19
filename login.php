@@ -20,7 +20,7 @@
             <li><a href="index.php">Book |</a></li>
             <li><a href="about.php">About |</a></li>
             <li><a href="register.php">Register |</a></li>
-            <li><a href="Login.php">Login</a></li>
+            <li><a href="login.php">Login</a></li>
 
 
 
@@ -42,27 +42,24 @@
     <form>
         <div class="login">
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
+    <label for="exampleInputEmail1">Email:</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
+            <br>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
+    <label for="exampleInputPassword1">Password:</label>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
-  <div class="form-check">
-    <label class="form-check-label">
-      <input type="checkbox" class="form-check-input">
-      Check me out
-    </label>
-  </div>
+            <br>
   <button type="submit" class="btn btn-primary">Submit</button>
         </div></form>
         
     
+    <br>
+    <br>
     
-    
-    
+        <footer>© 2017 Sheraton, Inc., All rights reserved.</footer>
     </body>
 
 

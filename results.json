@@ -1,0 +1,16 @@
+{
+    hotel1:{
+        location:"New York",
+        checkin:"09/01/2017",
+        checkout:"09/02/2017",
+        adult:"1",
+        room:"1"
+    },
+    hotel2:{
+        location:"New York",
+        checkin:"09/01/2017",
+        checkout:"09/02/2017",
+        adult:"1",
+        room:"1"
+    }
+}
