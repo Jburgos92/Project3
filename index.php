@@ -42,112 +42,94 @@
 
 
     <div class="search">
-        <form>
+        <form method="get" action="results.php">
             <div class="form-group">
                 <label>Location:</label>
+                <select id="inputState" class="form-control" name="location">
+                    <option selected>Choose...</option>
+                            <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="DC">District of Columbia</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
 
-                <select id="inputState" class="form-control">
-<option selected>Choose...</option>
-        <option>Alabama</option>
-        <option>Alaska</option>
-        <option>Arizona</option>
-        <option>Arkansas</option>
-        <option>California</option>
-        <option>Colorado</option>
-        <option>Connecticut</option>
-        <option>Delaware</option>
-        <option>Florida</option>
-        <option>Georgia</option>
-        <option>Hawaii</option>
-        <option>Idaho</option>
-        <option>Illinois</option>
-        <option>Indiana</option>
-        <option>Iowa</option>
-        <option>Kansas</option>
-        <option>Kentucky</option>
-        <option>Louisiana</option>
-        <option>Maine</option>
-        <option>Maryland</option>
-        <option>Massachusetts</option>
-        <option>Michigan</option>
-        <option>Minnesota</option>
-        <option>Mississippi</option>
-        <option>Missouri</option>
-        <option>Montana</option>
-        <option>Nebraska</option>
-        <option>Nevada</option>
-        <option>New Hampshire</option>
-        <option>New Jersey</option>
-        <option>New Mexico</option>
-        <option>New York</option>
-        <option>North Carolina</option>
-        <option>North Dakota</option>
-        <option>Ohio</option>
-        <option>Oklahoma</option>
-        <option>Oregon</option>
-        <option>Pennsylvania</option>
-        <option>Rhode Island</option>
-        <option>South Carolina</option>
-        <option>South Dakota</option>
-        <option>Tennessee</option>
-        <option>Texas</option>
-        <option>Utah</option>
-        <option>Vermont</option>
-        <option>Virginia</option>
-        <option>Washington</option>
-        <option>West Virginia</option>
-        <option>Wisconsin</option>
-        <option>Wyoming</option>
-
-
-      </select>
+                    </select>
             </div>
-                
-                
-                <br>
-
+            <div class="form-group">
                 <label>Check In:</label>
-                <input id="date" type="date">
-
-                <br>
-                <br>
-
-                <label>Check Out:
-               <input id="date" type="date">
-
-</label>
-                <br>
-                <br>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Adult</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-                </div>
-                <br>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Room</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-                </div>
-
-
-
-
-                <br>
-                <br>
-
-
-            <input type="submit" name="submit" value="Search">
+                <input class="form-control" id="date" type="date" name="checkin">
+            </div>
+            <div class="form-group">
+                <label>Check Out:</label>
+                <input class="form-control" id="date" type="date" name="checkout">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Adult</label>
+                <select class="form-control" id="exampleFormControlSelect1" name="adult">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Room</label>
+                <select class="form-control" id="exampleFormControlSelect1" name="room">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                </select>
+            </div>
+            <button class="btn" type="submit" name="submit" value="Search">Search</button>
         </form>
         <br>
 
@@ -155,8 +137,8 @@
 
 
 
-        </div>
-    
+    </div>
+
     <br>
     <br>
     <footer>© 2017 Sheraton, Inc., All rights reserved.</footer>
@@ -168,5 +150,9 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 </html>

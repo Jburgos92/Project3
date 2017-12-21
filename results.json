@@ -1,16 +1,43 @@
 {
-    hotel1:{
-        location:"New York",
-        checkin:"09/01/2017",
-        checkout:"09/02/2017",
-        adult:"1",
-        room:"1"
+    "hotel1": {
+        "location": "FL",
+        "address":"101 Main St",
+        "city":"Miami",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$120"
     },
-    hotel2:{
-        location:"New York",
-        checkin:"09/01/2017",
-        checkout:"09/02/2017",
-        adult:"1",
-        room:"1"
+    "hotel2": {
+        "location": "FL",
+        "address":"62 Mayflower St",
+        "city":"Sanford",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$240"
+    },
+    "hotel3": {
+        "location": "FL",
+        "address":"9488 East Walnutwood St",
+        "city":"Boca Raton",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$200"
+    },
+    "hotel4": {
+        "location": "FL",
+        "address":"623 East Carson St",
+        "city":"Tallahassee",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$190"
+
     }
 }
