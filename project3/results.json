@@ -1,0 +1,92 @@
+{
+    "hotel1": {
+        "location": "FL",
+        "address":"101 Main St",
+        "city":"Miami",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$120"
+    },
+    "hotel2": {
+        "location": "FL",
+        "address":"62 Mayflower St",
+        "city":"Sanford",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$240"
+    },
+    "hotel3": {
+        "location": "FL",
+        "address":"9488 East Walnutwood St",
+        "city":"Boca Raton",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$200"
+    },
+    "hotel4": {
+        "location": "FL",
+        "address":"623 East Carson St",
+        "city":"Tallahassee",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$190"
+
+    },"hotel5": {
+        "location": "Hawaii",
+        "address":"4444 Rice St",
+        "city":"Lihue",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$290"
+        
+    },"hotel6": {
+        "location": "Hawaii",
+        "address":"715 South King St",
+        "city":"Honolulu",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$390"
+        
+    },"hotel8": {
+        "location": "Hawaii",
+        "address":"135 South Wakea Avenue",
+        "city":"Kahului",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$300"
+        
+     },"hotel9": {
+        "location": "Hawaii",
+        "address":"101 Aupuni St",
+        "city":"Hilo",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price":"$400"
+
+     };
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
