@@ -44,28 +44,32 @@ $o = $_GET['checkout'];
 $a = $_GET['adult'];
 $r = $_GET['room'];
 
-    echo $l;
-    echo "<br>";
-    echo $c;
-    echo "<br>";
-    echo $o;
-    echo "<br>";
-    echo $a;
-    echo "<br>";
-    echo $r;
-    echo "<br>";
-    
+//    echo $l;
+//    echo "<br>";
+//    echo $c;
+//    echo "<br>";
+//    echo $o;
+//    echo "<br>";
+//    echo $a;
+//    echo "<br>";
+//    echo $r;
+//    echo "<br>";
+    echo '<h1>Search Results For '.$l.'</h1>';
     	$j = file_get_contents('results.json');
 		$d = json_decode($j, true);
 //		print_r($d);
 		foreach($d as $k => $v){
-			echo '<div class="hotel" id="'.$k.'">
+            if($l == $v['location']){
+                echo '<div class="hotel" id="'.$k.'">
             <p class="info">'.$v['address'].'</p>
             <p>'.$v['city'].'</p>
             <p><span>Adult:</span>' .$v['adult'].'</p>
             <p><span>Room:</span>' .$v['room'].'</p>
-            <p><span>Price:</span>' .$v['price'].'</p></div>';
-		}
+            <p><span>Price:</span>' .$v['price'].'</p>
+            <p><span><a href="payment.php" class="btn">Book</a></span></p></div>';
+            }
+			
+		};
 
 ?>
  </div>
@@ -75,9 +79,12 @@ $r = $_GET['room'];
 
 
 
-
 <script src="js/jquery.min.js"></script>
-    <script></script>
 <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 
 </html>

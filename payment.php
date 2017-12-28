@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Sheraton</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
@@ -41,28 +41,33 @@
 
     <form>
         <div class="sign">
-                    <p><span class="error">* required field.</span></p>
+            <p><span class="error">* required field.</span></p>
             <div class="form-row">
+                <h1>Payment Form</h1>
                 <div class="form-group col-md-6">
                     <label for="inputname4">Full Name:</label>
-                    <input type="name" class="form-control" id="inputname4" placeholder="Full Name">
                     <span class="error">*</span><br>
+                    <input type="name" class="form-control" id="inputname4" placeholder="Full Name">
+
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Email:</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                     <span class="error">*</span><br>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputPassword4">Password:</label>
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
                     <span class="error">*</span><br>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputAddress">Address:</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                 <span class="error">*</span><br>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+
             </div>
             <div class="form-group">
                 <label for="inputAddress2">Address 2:</label>
@@ -71,11 +76,13 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputCity">City:</label>
-                    <input type="text" class="form-control" id="inputCity">
                     <span class="error">*</span><br>
+                    <input type="text" class="form-control" id="inputCity">
+
                 </div>
                 <div class="form-group col-md-4">
                     <label for="inputState">State:</label>
+                    <span class="error">*</span><br>
                     <select id="inputState" class="form-control">
 <option selected>Choose...</option>
         <option>Alabama</option>
@@ -131,13 +138,38 @@
 
 
       </select>
-                    <span class="error">*</span><br>
+
                 </div>
                 <div class="form-group col-md-2">
                     <label for="inputZip">Zip:</label>
-                    <input type="text" class="form-control" id="inputZip">
                     <span class="error">*</span><br>
+                    <input type="text" class="form-control" id="inputZip">
+
                 </div>
+                <br>
+                <h4>Credit Card Information</h4>
+
+                <div class="form-group col-md-6">
+                    <label for="inputname4">Card Number</label>
+                    <span class="error">*</span><br>
+                    <input type="name" class="form-control" id="inputname4">
+
+                </div>
+                <br>
+                <h4>Credit Card</h4>
+                <div class="dropdown">
+                    <span class="error">*</span><br>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select
+                     </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">American Express</a>
+                        <a class="dropdown-item" href="#">Mastercard</a>
+                        <a class="dropdown-item" href="#">Visa</a>
+                    </div>
+                </div>
+
+
                 <br>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -146,21 +178,21 @@
     </form>
 
 
-<br>
+
+
+
+
     <br>
-
-
-
-<footer>© 2017 Sheraton, Inc., All rights reserved.</footer>
-
-
+    <br>
+    <footer>© 2017 Sheraton, Inc., All rights reserved.</footer>
 
 </body>
-
-
-
-
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 
 </html>

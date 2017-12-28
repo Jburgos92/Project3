@@ -40,7 +40,7 @@
 
 
     <form>
-        <div class="sign">
+        <div class="register">
                     <p><span class="error">* required field.</span></p>
             <div class="form-row">
                 <div class="form-group col-md-6">
