@@ -7,7 +7,8 @@
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price": "$120"
+        "price": "$120",
+        "img": "hotel1.jpg"
     },
     "hotel2": {
         "location": "FL",
@@ -17,7 +18,8 @@
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price": "$240"
+        "price": "$240",
+        "img": "hotel2.jpg"
     },
     "hotel3": {
         "location": "FL",
@@ -27,7 +29,8 @@
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price": "$200"
+        "price": "$200",
+        "img": "hotel3.jpg"
     },
     "hotel4": {
         "location": "FL",
@@ -37,7 +40,8 @@
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price": "$190"
+        "price": "$190",
+        "img": "hotel4.jpg"
 
     },
     "hotel5": {
@@ -48,7 +52,8 @@
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price": "$290"
+        "price": "$290",
+        "img": "hotel5.jpg"
 
     },
     "hotel6": {
@@ -59,7 +64,8 @@
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price": "$390"
+        "price": "$390",
+        "img": "hotel6.jpg"
 
     },
     "hotel7": {
@@ -70,7 +76,8 @@
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price": "$300"
+        "price": "$300",
+        "img": "hotel7.jpg"
 
     },
     "hotel8": {
@@ -81,13 +88,8 @@
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price": "$400"
-
+        "price": "$400",
+        "img": "hotel8.jpg"
     }
 
 }
-    
-    
-    
-    
-    

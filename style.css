@@ -47,6 +47,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
+
 }
 
 .login {
@@ -92,6 +93,12 @@ body {
     background-color: white;
     width: 40%;
     margin-bottom: 20px;
+}
+
+.results{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #232323;
 }
 
 

@@ -54,13 +54,14 @@ $r = $_GET['room'];
 //    echo "<br>";
 //    echo $r;
 //    echo "<br>";
-    echo '<h1>Search Results For '.$l.'</h1>';
+    echo ' <b><h1 class="results"> Search Results For '.$l.':</h1></b>';
     	$j = file_get_contents('results.json');
 		$d = json_decode($j, true);
 //		print_r($d);
 		foreach($d as $k => $v){
             if($l == $v['location']){
                 echo '<div class="hotel" id="'.$k.'">
+                <img src="img/'.$v['img'].'" style="float: left;">
             <p class="info">'.$v['address'].'</p>
             <p>'.$v['city'].'</p>
             <p><span>Adult:</span>' .$v['adult'].'</p>
@@ -70,6 +71,7 @@ $r = $_GET['room'];
             }
 			
 		};
+
 
 ?>
  </div>
