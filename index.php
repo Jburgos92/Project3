@@ -3,7 +3,7 @@
 
 <head>
     <title>Sheraton</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
 
@@ -129,7 +129,9 @@
                       <option>5</option>
                 </select>
             </div>
+            <div class="btn">
             <button class="btn" type="submit" name="submit" value="Search">Search</button>
+            </div>
         </form>
         <br>
 

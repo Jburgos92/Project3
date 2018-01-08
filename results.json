@@ -1,43 +1,95 @@
 {
     "hotel1": {
         "location": "FL",
-        "address":"101 Main St",
-        "city":"Miami",
+        "address": "101 Main St",
+        "city": "Miami",
         "checkin": "12/27/2017",
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price":"$120"
+        "price": "$120",
+        "img": "hotel1.jpg"
     },
     "hotel2": {
         "location": "FL",
-        "address":"62 Mayflower St",
-        "city":"Sanford",
+        "address": "62 Mayflower St",
+        "city": "Sanford",
         "checkin": "12/27/2017",
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price":"$240"
+        "price": "$240",
+        "img": "hotel2.jpg"
     },
     "hotel3": {
         "location": "FL",
-        "address":"9488 East Walnutwood St",
-        "city":"Boca Raton",
+        "address": "9488 East Walnutwood St",
+        "city": "Boca Raton",
         "checkin": "12/27/2017",
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price":"$200"
+        "price": "$200",
+        "img": "hotel3.jpg"
     },
     "hotel4": {
         "location": "FL",
-        "address":"623 East Carson St",
-        "city":"Tallahassee",
+        "address": "623 East Carson St",
+        "city": "Tallahassee",
         "checkin": "12/27/2017",
         "checkout": "12/28/2017",
         "adult": "2",
         "room": "1",
-        "price":"$190"
+        "price": "$190",
+        "img": "hotel4.jpg"
 
+    },
+    "hotel5": {
+        "location": "HI",
+        "address": "4444 Rice St",
+        "city": "Lihue",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price": "$290",
+        "img": "hotel5.jpg"
+
+    },
+    "hotel6": {
+        "location": "HI",
+        "address": "715 South King St",
+        "city": "Honolulu",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price": "$390",
+        "img": "hotel6.jpg"
+
+    },
+    "hotel7": {
+        "location": "HI",
+        "address": "135 South Wakea Avenue",
+        "city": "Kahului",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price": "$300",
+        "img": "hotel7.jpg"
+
+    },
+    "hotel8": {
+        "location": "HI",
+        "address": "101 Aupuni St",
+        "city": "Hilo",
+        "checkin": "12/27/2017",
+        "checkout": "12/28/2017",
+        "adult": "2",
+        "room": "1",
+        "price": "$400",
+        "img": "hotel8.jpg"
     }
+
 }

@@ -1,11 +1,10 @@
-
 .search {
     border: 2px double black;
     outline-style: double;
     width: 30%;
     margin: 0 auto;
-/*    text-align: right;*/
-/*    padding: 10px;*/
+    /*    text-align: right;*/
+    /*    padding: 10px;*/
     background-color: white;
 }
 
@@ -44,7 +43,11 @@ li a {
 
 body {
     background-image: url(img/hotel.jpg);
-    background-repeat:round;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
 }
 
 .login {
@@ -62,9 +65,20 @@ body {
 .sign {
     border: 2px double black;
     outline-style: double;
+    height: 30%;
+    width: 50%;
+    margin: auto;
+    text-align: auto;
+    padding: 30px;
+    background-color: white;
+}
+
+.register {
+    border: 2px double black;
+    outline-style: double;
     width: 30%;
     margin: auto;
-    text-align: right;
+    text-align: center;
     padding: 10px;
     background-color: white;
 }
@@ -81,9 +95,13 @@ body {
     margin-bottom: 20px;
 }
 
-.info {
-    
+.results{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #232323;
 }
+
+
 
 
 footer {
