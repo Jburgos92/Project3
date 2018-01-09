@@ -46,8 +46,7 @@ body {
     font-family: sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
-
+    background-size: cover;
 }
 
 .login {
@@ -95,7 +94,7 @@ body {
     margin-bottom: 20px;
 }
 
-.results{
+.results {
     color: white;
     text-align: center;
     text-shadow: 2px 2px #232323;
@@ -108,4 +107,41 @@ footer {
     color: white;
     text-align: center;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+    .photo {
+        width: 100%;
+    }
+    .photo img {
+        max-width: 100%;
+    }
+    .navi {
+        font-size: 18px;
+        width: 100%;
+        padding: 10px;
+    }
+    .search {
+        width: 80%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .hotel {
+        width: 80%;
+    }
+    .sign {
+        width: 80%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .login {
+        width: 80%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .register {
+        width: 80%;
+        margin-top: 10px;
+        padding: 10px;
+    }
 }
